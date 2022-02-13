@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Array</title>
+</head>
+<body>
+  <script>
+    var numeros = [0,1,2,3,4,5,6]
+    var pusheado = numeros.find(a => a ===10)
+    var a = 10
+    if (typeof pusheado === 'undefined'){
+      numeros.push(a) 
+    }
+    console.log(numeros)
+
+   /* function pusheandoUndefined(){ 
+      var item = 10
+     var loTiene = numeros.some(numeros => item === 10)
+     if (loTiene === true){
+      return numeros.push(item) + document.write(numeros)
+      }    
+    }
+    document.write(numeros)*/
+  
+  </script>
+</body>
+</html>
